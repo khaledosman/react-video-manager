@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Thriller"
+    },
+    {
+      "id": 2,
+      "name": "Criminal"
+    },
+    {
+      "id": 3,
+      "name": "Comedy"
+    },
+    {
+      "id": 4,
+      "name": "Horror"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "David Munch",
+      "videos": [
+        {
+          "id": 1,
+          "catIds": [
+            1,
+            2
+          ],
+          "name": "Set the Moon",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            },
+            "two": {
+              "res": "1280p",
+              "size": 1280
+            }
+          }
+        },
+        {
+          "id": 2,
+          "catIds": [
+            2,
+            4
+          ],
+          "name": "Lights",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Li Sun Chi",
+      "videos": [
+        {
+          "id": 3,
+          "catIds": [
+            4
+          ],
+          "name": "Fun",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            }
+          }
+        },
+        {
+          "id": 4,
+          "catIds": [
+            1,
+            2,
+            4
+          ],
+          "name": "It",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            }
+          }
+        },
+        {
+          "id": 5,
+          "catIds": [
+            2
+          ],
+          "name": "Go and get it",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Steven Scorsese",
+      "videos": [
+        {
+          "id": 6,
+          "catIds": [
+            2,
+            4
+          ],
+          "name": "Torrance",
+          "releaseDate": 1614360148048,
+          "formats": {
+            "one": {
+              "res": "1080p",
+              "size": 1000
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
